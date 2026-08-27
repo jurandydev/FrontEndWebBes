@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Recrutamento Online</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1>Recrutamento Online</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Cadastre o seu Currículo</h2>
+                <form action="#" method="post">
+                    <p>Preencha o Formulário para se candidatar à vaga</p>
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+
+                        <div>
+                         <label for="nome_id">Nome completo:</label>
+                         <input id="nome_id" name="nome" type="text">
+                        </div>
+
+                        <div>
+                         <label for="telefone_id">Telefone:</label>
+                         <input id="telefone_id" name="telefone" type="tel">
+                        </div>
+
+                        <div>
+                            <label for="email_id">Email:</label>
+                            <input id="email_id" name="email" type="email">
+                        </div>
+
+                        <div>
+                            <label for="data_nasc_id">Data de Nascimento:</label>
+                            <input id="data_nasc_id" name="data_nasc" type="date">
+                        </div>
+
+                        <fieldset>
+                            <legend>Endereço</legend>
+
+                            <div>
+                                <label for="logradouro_id">Logradouro:</label>
+                                <input id="logradouro_id" name="logradouro" type="text">
+                            </div>
+
+                            <div>
+                                <label for="cidade_id">Cidade-UF:</label>
+                                <input id="cidade_id" name="cidade" type="text">
+                            </div>
+
+                            <div>
+                                <label for="numero_id">Número:</label>
+                                <input id="numero_id" name="numero" type="number">
+                            </div>
+
+                        </fieldset>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Resumo</legend>
+                        <div>
+                            <label for="resumo_id">Fale sobre você:</label>
+                            <textarea id="resumo_id" name="resumo"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Nível Desejado</legend>
+                        <div>
+                            <input id="nivel_estagio_id"
+                                   name="nivel"
+                                   type="radio"
+                                   value="estagio">
+                            <label for="nivel_estagio_id">Estágio</label>
+                        </div>
+                        
+                        <div>
+                            <input id="nivel_junior_id"
+                                   name="nivel"
+                                   type="radio"
+                                   value="junior">
+                            <label for="nivel_junior_id">Junior</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Tecnologia que domina:</legend>
+                        <div>
+                            <input id="tec_html_id"
+                                    name="tecnologia"
+                                    type="checkbox"
+                                    value="css">
+                            <label for="tec_css_id">CSS</label>
+                        </div>
+                        <div>
+                            <input id="tec_js_id"
+                                    name="tecnologia"
+                                    type="checkbox"
+                                    value="js">
+                            <label for="tec_js_id">JS</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Grau de instrução</legend>
+                        <div>
+                            <label for="escolaridade_id">Escolaridade</label>
+                            <select id="escolaridade_id" name="escolaridade">
+                                <option value="medio">Esino Médio</option>
+                                <option value="graduacao">Graduação</option>
+                                <option value="pos">Pós Graduação</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <button type="reset">Limpar Dados</button>
+                        <button type="submit">Enviar Dados</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Todos os direitos reservados &copy;</p>
+        </footer>
+    </body>
+</html>
