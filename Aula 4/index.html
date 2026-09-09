@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Workshop de Tecnologia</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Workshop de Tecnologia</h1>
+        </header>
+
+        <main>
+            <section>
+
+                <h2>Inscrição para o Workshop</h2>
+
+                <form action="https://postman-echo.com/post" method="post">
+
+                    <p>Preencha o formulário para participar do workshop.</p>
+
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+
+                        <div>
+                            <label for="nome_id">Nome completo:</label>
+                            <input
+                                id="nome_id"
+                                name="nome"
+                                type="text"
+                                placeholder="Digite aqui..."
+                                required>
+                        </div>
+
+                        <div>
+                            <label for="email_id">Email:</label>
+                            <input
+                                id="email_id"
+                                name="email"
+                                type="email"
+                                placeholder="Digite seu email..."
+                                pattern=".+@.+"
+                                required>
+                        </div>
+
+                        <div>
+                            <label for="telefone_id">Telefone:</label>
+                            <input
+                                id="telefone_id"
+                                name="telefone"
+                                type="tel"
+                                placeholder="Digite seu telefone..."
+                                required>
+                        </div>
+
+                        <div>
+                            <label for="idade_id">Idade:</label>
+                            <input
+                                id="idade_id"
+                                name="idade"
+                                type="number"
+                                placeholder="Digite sua idade...">
+                        </div>
+
+                        <div>
+                            <label for="cidade_id">Cidade:</label>
+                            <input
+                                id="cidade_id"
+                                name="cidade"
+                                type="text"
+                                placeholder="Digite sua cidade...">
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Formação</legend>
+
+                        <div>
+                            <label for="curso_id">Curso:</label>
+
+                            <select
+                                id="curso_id"
+                                name="curso">
+
+                                <option value="engenharia-software">
+                                    Engenharia de Software
+                                </option>
+
+                                <option value="ciencia-computacao">
+                                    Ciência da Computação
+                                </option>
+
+                                <option value="sistemas-informacao">
+                                    Sistemas de Informação
+                                </option>
+
+                            </select>
+                        </div>
+
+                        <div>
+                            <p>Semestre:</p>
+
+                            <input
+                                id="semestre_1"
+                                name="semestre"
+                                type="radio"
+                                value="1">
+
+                            <label for="semestre_1">1º</label>
+
+                            <input
+                                id="semestre_2"
+                                name="semestre"
+                                type="radio"
+                                value="2">
+
+                            <label for="semestre_2">2º</label>
+
+                            <input
+                                id="semestre_3"
+                                name="semestre"
+                                type="radio"
+                                value="3">
+
+                            <label for="semestre_3">3º</label>
+
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Área de Interesse</legend>
+
+                        <div>
+                            <input
+                                id="frontend_id"
+                                name="interesse"
+                                type="checkbox"
+                                value="frontend">
+
+                            <label for="frontend_id">
+                                Front-end
+                            </label>
+                        </div>
+
+                        <div>
+                            <input
+                                id="backend_id"
+                                name="interesse"
+                                type="checkbox"
+                                value="backend">
+
+                            <label for="backend_id">
+                                Back-end
+                            </label>
+                        </div>
+
+                        <div>
+                            <input
+                                id="cyber_id"
+                                name="interesse"
+                                type="checkbox"
+                                value="ciberseguranca">
+
+                            <label for="cyber_id">
+                                Cibersegurança
+                            </label>
+                        </div>
+
+                        <div>
+                            <input
+                                id="ia_id"
+                                name="interesse"
+                                type="checkbox"
+                                value="ia">
+
+                            <label for="ia_id">
+                                Inteligência Artificial
+                            </label>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Nível de Conhecimento</legend>
+
+                        <div>
+                            <label for="nivel_id">
+                                Nível:
+                            </label>
+
+                            <select
+                                id="nivel_id"
+                                name="nivel">
+
+                                <option value="iniciante">
+                                    Iniciante
+                                </option>
+
+                                <option value="intermediario">
+                                    Intermediário
+                                </option>
+
+                                <option value="avancado">
+                                    Avançado
+                                </option>
+
+                            </select>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Sobre você</legend>
+
+                        <div>
+                            <label for="resumo_id">
+                                O que você espera aprender?
+                            </label>
+
+                            <textarea
+                                id="resumo_id"
+                                name="resumo"
+                                placeholder="Digite aqui..."></textarea>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Confirmação</legend>
+
+                        <div>
+                            <input
+                                id="termos_id"
+                                name="termos"
+                                type="checkbox"
+                                required>
+
+                            <label for="termos_id">
+                                Confirmo minha inscrição.
+                            </label>
+                        </div>
+
+                    </fieldset>
+
+                    <div>
+                        <button type="reset">
+                            Limpar Dados
+                        </button>
+
+                        <button type="submit">
+                            Enviar Dados
+                        </button>
+                    </div>
+
+                </form>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>Todos os direitos reservados &copy;</p>
+        </footer>
+
+    </body>
+</html>

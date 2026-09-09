@@ -1,0 +1,16 @@
+{
+    "nome": "Jurandy",
+    "email": "jurandy@email.com",
+    "telefone": "(43) 99999-9999",
+    "idade": "20",
+    "cidade": "Ibiporã",
+    "curso": "engenharia-software",
+    "semestre": "2",
+    "interesses": [
+        "ciberseguranca",
+        "inteligencia-artificial"
+    ],
+    "nivel": "iniciante",
+    "comentario": "Quero aprender mais sobre tecnologia.",
+    "termos": true
+}
