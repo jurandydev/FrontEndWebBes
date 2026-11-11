@@ -1,0 +1,45 @@
+Retorno da API:
+
+{
+  "args": {},
+  "data": {
+    "nome": "jurandy santos neto",
+    "email": "dasdasd@gmail.com",
+    "cpf": "529.982.247-25",
+    "telefone": "(32) 09340-9443",
+    "nascimento": "1989-12-13",
+    "genero": "masculino",
+    "cep": "21312-313",
+    "cidade": "londrina",
+    "senha": "abc123456",
+    "termos": true
+  },
+  "files": {},
+  "form": {},
+  "headers": {
+    "host": "postman-echo.com",
+    "x-forwarded-proto": "https",
+    "x-forwarded-port": "443",
+    "x-amzn-trace-id": "Root=1-6912a7f4-3c1e5b7d0f2a4e9b1d8c6a35",
+    "content-length": "246",
+    "accept": "*/*",
+    "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8",
+    "content-type": "application/json",
+    "origin": "http://127.0.0.1:5500",
+    "referer": "http://127.0.0.1:5500/",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130.0.0.0 Safari/537.36"
+  },
+  "json": {
+    "nome": "jurandy santos neto",
+    "email": "dasdasd@gmail.com",
+    "cpf": "529.982.247-25",
+    "telefone": "(32) 09340-9443",
+    "nascimento": "1989-12-13",
+    "genero": "masculino",
+    "cep": "21312-313",
+    "cidade": "londrina",
+    "senha": "abc123456",
+    "termos": true
+  },
+  "url": "https://postman-echo.com/post"
+}
